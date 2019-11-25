@@ -1,4 +1,4 @@
 ofxBoost
 ========
 
-Compiled Boost libs and headers for OSX and Windows (based on version 1.46 and compiled with GCC 4.6+). To use just link against the libs you require - there is no need to add all the header files to your project usually (just point your compiler at the correct header search paths). I find it easiest to drag and drop the libs to my Xcode project on Mac, on Windows I add them to the lib include paths.
+ofxBoost is acollection of Compiled Boost libraries and headers for OSX and Windows based on version 1.46 and compiled with GCC 4.6+. For usage, link ofxBoost to the libraries you require. Instead of adding individual header files to your project, simply point your compiler to the correct header search paths. It is recommended to drag and drop the libraries to Xcode projects on Mac operatings systems, and to add them to the library include paths for Windows operating systems.
